@@ -7,7 +7,7 @@
     --umak-bg-light: #f8fafc;
     --header-height: 60px; /* Adjusted: Thinner top bar */
     --footer-height: 60px; /* Adjusted: Thinner bottom bar */
-    --logo-protrusion: 0px; /* Adjusted: Less protrusion for thinner bar */
+    --logo-protrusion: 80px; /* Adjusted: Less protrusion for thinner bar */
     --logo-size: 80px; /* Kept same as requested */
 }
 
@@ -54,7 +54,7 @@ body {
     z-index: 20; /* Ensure the logo is above the header */
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
+    background-color: #002D62;
     padding: 5px;
     border: 1px solid #002D62;
 }
@@ -105,7 +105,7 @@ body {
 
 /* Day Selector */
 .day-selector {
-    background-color: #004080;
+    background-color: #fff;
     color: #FFC107;
     display: flex;
     justify-content: center;
@@ -170,7 +170,7 @@ tbody tr:last-child td {
 .footer-button {
     background-color: #FFC107;
     color: #002D62;
-    padding: 0.75rem 1.5rem;
+    padding: 0.4rem 1.2rem;
     font-size: 0.875rem;
     font-weight: 600;
     border-radius: 9999px; /* rounded-full */
@@ -300,6 +300,7 @@ tbody tr:last-child td {
 .schedule-list-item:last-child {
     border-bottom: none;
 }
+
 
 
 
