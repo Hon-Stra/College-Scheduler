@@ -3,7 +3,7 @@
 // It caches all necessary assets to provide offline access.
 
 // Increment the CACHE_NAME to force the service worker to fetch new assets
-const CACHE_NAME = 'college-schedule-app-v27'; // Increment cache name to ensure update
+const CACHE_NAME = 'college-schedule-app-v28'; // Increment cache name to ensure update
 // IMPORTANT: Replace 'College-Schedule' with your actual repository name.
 const REPO_NAME = '/College-Schedule';
 
@@ -78,3 +78,4 @@ self.addEventListener('activate', (event) => {
     );
     event.waitUntil(self.clients.claim());
 });
+
