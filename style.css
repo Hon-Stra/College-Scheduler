@@ -85,6 +85,7 @@ body {
 
 .main-schedule-title-container {
     text-align: center;
+    margin-top: 10rem;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -297,3 +298,4 @@ tbody tr:last-child td {
 .schedule-list-item:last-child {
     border-bottom: none;
 }
+
