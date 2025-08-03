@@ -63,7 +63,7 @@ body {
     background: none;
     border: none;
     font-weight: 600;
-    color: var(--umak-blue-dark);
+    color: #FFC107;
     cursor: pointer;
     font-size: 1rem;
     padding: 0.5rem 1rem;
@@ -105,6 +105,8 @@ body {
 
 /* Day Selector */
 .day-selector {
+    background-color: #004080;
+    color: #FFC107;
     display: flex;
     justify-content: center;
     gap: 0.5rem; /* space-x-2 */
@@ -166,8 +168,8 @@ tbody tr:last-child td {
 }
 
 .footer-button {
-    background-color: var(--umak-blue-dark);
-    color: #FFC107;
+    background-color: #FFC107;
+    color: #002D62;
     padding: 0.75rem 1.5rem;
     font-size: 0.875rem;
     font-weight: 600;
@@ -182,7 +184,7 @@ tbody tr:last-child td {
 }
 
 .footer-button:hover {
-    background-color: var(--umak-blue-light);
+    background-color: #FFC107;
     transform: translateY(-2px);
 }
 
@@ -298,6 +300,7 @@ tbody tr:last-child td {
 .schedule-list-item:last-child {
     border-bottom: none;
 }
+
 
 
 
