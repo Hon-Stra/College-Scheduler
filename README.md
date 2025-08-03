@@ -1,1 +1,1 @@
-# College-Scheduler
+# College-Schedule

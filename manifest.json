@@ -1,0 +1,51 @@
+{
+    "name": "UMak Schedule",
+    "short_name": "UMakSched",
+    "description": "Your personalized University of Makati class schedule.",
+    "start_url": "/College-Schedule/",
+    "display": "standalone",
+    "background_color": "#002D62",
+    "theme_color": "#002D62",
+    "icons": [
+        {
+            "src": "/College-Schedule/umak-app-icon-48.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-168.png",
+            "sizes": "168x168",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/College-Schedule/umak-app-icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
