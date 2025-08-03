@@ -17,7 +17,7 @@ body {
     background-color: rgba(248, 250, 252, 0.8); /* Light gray background with transparency */
     color: var(--umak-text-dark);
     margin: 0;
-    padding-top: 0; /* Ensures no space above fixed header */
+    padding-top: 20; /* Ensures no space above fixed header */
     padding-bottom: var(--footer-height);
     display: flex;
     flex-direction: column;
@@ -298,4 +298,5 @@ tbody tr:last-child td {
 .schedule-list-item:last-child {
     border-bottom: none;
 }
+
 
