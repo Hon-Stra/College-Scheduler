@@ -17,7 +17,7 @@ body {
     background-color: rgba(248, 250, 252, 0.8); /* Light gray background with transparency */
     color: var(--umak-text-dark);
     margin: 0;
-    padding-top: 20; /* Ensures no space above fixed header */
+    padding-top: 10; /* Ensures no space above fixed header */
     padding-bottom: var(--footer-height);
     display: flex;
     flex-direction: column;
@@ -34,7 +34,7 @@ body {
     left: 0;
     width: 100%;
     height: var(--header-height);
-    background-color: #ffffff;
+    background-color: #002D62;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 10;
     display: flex;
@@ -56,7 +56,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     padding: 5px;
-    border: 1px solid #e5e7eb;
+    border: 1px solid #002D62;
 }
 
 .schedule-short-id-button {
@@ -155,7 +155,7 @@ tbody tr:last-child td {
     left: 0;
     width: 100%;
     height: var(--footer-height);
-    background-color: #ffffff;
+    background-color: #002D62;
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
     z-index: 10;
     display: flex;
@@ -167,7 +167,7 @@ tbody tr:last-child td {
 
 .footer-button {
     background-color: var(--umak-blue-dark);
-    color: #ffffff;
+    color: #FFC107;
     padding: 0.75rem 1.5rem;
     font-size: 0.875rem;
     font-weight: 600;
@@ -298,5 +298,6 @@ tbody tr:last-child td {
 .schedule-list-item:last-child {
     border-bottom: none;
 }
+
 
 
